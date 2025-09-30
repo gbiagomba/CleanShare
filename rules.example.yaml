@@ -1,0 +1,21 @@
+# Example rules file for cleanshare
+# You can use YAML or JSON with the same structure.
+
+remove_params:
+  - tracking_id
+  - campaign
+remove_param_globs:
+  - "trk*"
+  - "_hs*"      # HubSpot
+keep_params:
+  - lang
+
+host_rules:
+  - hosts: ["*.example.com"]
+    strip_all_params: true
+    keep_params: ["id", "lang"]
+
+  - hosts: ["redirector.example.net"]
+    unwrap_params: ["target", "url"]
+    remove_params: ["sig", "ts"]
+
