@@ -79,4 +79,4 @@ See `rules.example.yaml` for a template.
 - Open issues/PRs with clear descriptions. Add tests for changes. Keep code minimal, safe, and focused.
 
 ## License
-MIT (or your chosen license). No license file included by default.
+CleanShare is licensed under the GPL-3.0 License. For more information, see the [LICENSE](LICENSE) file.
