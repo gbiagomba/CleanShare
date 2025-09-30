@@ -1,4 +1,4 @@
-# cleanshare
+# CleanShare
 
 ## Background/Lore
 `cleanshare` removes tracking parameters from URLs and unwraps common redirect wrappers, so you can safely share clean links. It works from the terminal, with piping, files, and multiple URLs, and supports custom rules via YAML/JSON.
